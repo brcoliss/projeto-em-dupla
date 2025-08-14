@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booksy Clone</title>
+<link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
-    
+ 
+<header class="top-bar">
+    <div class="logo">booksy</div>
+    <div class="header-right">
+    </div>
+</header>
+ 
+<section class="hero">
+    <div class="overlay"></div>
+    <div class= "pesquisa">
+        <h1>Seja corajoso</h1>
+        <p>Descubra e reserve profissionais de beleza e bem-estar perto de você</p>
+        <input type="text" placeholder="Pesquise serviços ou empresas">
+        <nav class="categories">
+            <a href="#">Salões de Beleza</a>
+            <a href="#">Barbearias</a>
+            <a href="#">Manicure & Nail Designer</a>
+            <a href="#">Esteticistas</a>
+            <a href="#">Sobrancelhas & Cílios</a>
+            <a href="#">Spa & Massagem</a>
+            <a href="#">Make Up</a>
+            <a href="#">Saúde & Bem-estar</a>
+            <a href="#">Mais...</a>
+        </nav>
+    </div>
+</section>
+ 
+<section class="recomentacao">
+    <h2>Recomendado</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <div class="rating">5.0 <span>186 avaliações</span></div>
+            <h3>Mendes Barber</h3>
+            <p>Rua Guttmann, 62 - Jardim Santo Eduardo...</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <div class="rating">4.7 <span>427 avaliações</span></div>
+            <h3>The Black White Hair</h3>
+            <p>Avenida Doutor Arnaldo, 251 Consolação...</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180" alt="">
+            <div class="rating">5.0 <span>448 avaliações</span></div>
+            <h3>Barbearia Edynho</h3>
+            <p>Rua Lagoa da Tocha, 166...</p>
+        </div>
+    </div>
+</section>
+<div class="barra-fixa">
+  <div class="logo">
+    <img src="booksy-logo.png" alt="Booksy" height="20">
+  </div>
+ 
+  <input type="text" placeholder="Pesquise serviços ou empresas">
+  <input type="text" placeholder="Onde?">
+  <input type="text" placeholder="Quando?">
+ 
+  <button>Entrar / Inscrever-se</button>
+  <select>
+    <option>BR</option>
+    <option>EN</option>
+  </select>
+  <button>Listar sua empresa</button>
+</div>
+ 
+ 
 </body>
 </html>
