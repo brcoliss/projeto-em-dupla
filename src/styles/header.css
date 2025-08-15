@@ -1,0 +1,22 @@
+.top-bar {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-right li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
