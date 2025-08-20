@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +8,25 @@
     <link rel="stylesheet" href="./src/styles/style.css">
     <script src="java.js"></script>
 </head>
-
+ 
 <body>
-
-    <header class="top-bar">
-        <div class="logo">
-            <h1>Booksy</h1>
-        </div>
-        <div class="header-right">
-            <ul>
-                <li>Sobre nós</li>
-                <li>Serviços</li>
-                <li>Formulário</li>
-            </ul>
-        </div>
-    </header>
-
+ 
+<header>
+  <div class="logo">Booksy</div>
+  <nav>
+    <ul>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Formulário</a></li>
+    </ul>
+  </nav>
+</header>
+ 
     <section class="hero">
         <div class="overlay"></div>
         <div class="pesquisa">
-            <h1 id="frase">Seja corajoso</h1>
-            <p class="hero-p">Descubra e reserve profissionais de beleza e bem-estar perto de você</p>
+            <h1 id="frase" class="frase">Seja Majestoso</h1>
+            <p class="hero-p"> Reserve profissionais de beleza e encontre-os perto de você</p>
             <input type="text" placeholder="Pesquise serviços ou empresas">
             <nav class="categories">
                 <a href="#">Salões de Beleza</a>
@@ -43,48 +41,46 @@
             </nav>
         </div>
     </section>
-
-    <section class="recomentacao">
-        <h2>Recomendado</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="https://via.placeholder.com/300x180" alt="">
-                <div class="rating">5.0 <span>186 avaliações</span></div>
-                <h3>Mendes Barber</h3>
-                <p>Rua Guttmann, 62 - Jardim Santo Eduardo...</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x180" alt="">
-                <div class="rating">4.7 <span>427 avaliações</span></div>
-                <h3>The Black White Hair</h3>
-                <p>Avenida Doutor Arnaldo, 251 Consolação...</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x180" alt="">
-                <div class="rating">5.0 <span>448 avaliações</span></div>
-                <h3>Barbearia Edynho</h3>
-                <p>Rua Lagoa da Tocha, 166...</p>
-            </div>
-        </div>
-    </section>
-    <div class="barra-fixa">
-        <div class="logo">
-            <img src="booksy-logo.png" alt="Booksy" height="20">
-        </div>
-
-        <input type="text" placeholder="Pesquise serviços ou empresas">
-        <input type="text" placeholder="Onde?">
-        <input type="text" placeholder="Quando?">
-
-        <button>Entrar / Inscrever-se</button>
-        <select>
-            <option>BR</option>
-            <option>EN</option>
-        </select>
-        <button>Listar sua empresa</button>
+    <h1 class="recomendado">Recomendados</h1>
+<div class="carrossel">
+  <div class="card">
+    <div class="img-box">
+      <img src="./src/img/lavarCabelo.jpg" alt="Toque de Seda">
+      <span class="rating">5.0<br><small>186 avaliações</small></span>
     </div>
+    <h3>Toque de Seda</h3>
+    <p>Rua Guttmann, 62 - Jardim Santo Eduardo, Embu das Artes</p>
+  </div>
+
+  <div class="card">
+    <div class="img-box">
+      <img src="./src/img/limpezaPele.jpg" alt="Barbearia JJ">
+      <span class="rating">4.9<br><small>196 avaliações</small></span>
+    </div>
+    <h3>Essência Facial</h3>
+    <p>Avenida Perimetral Sul, 606, Vila</p>
+  </div>
+
+  <div class="card">
+    <div class="img-box">
+      <img src="./src/img/unha.jpg" alt="The Black White Hair">
+      <span class="rating">4.7<br><small>428 avaliações</small></span>
+    </div>
+    <h3>Charme Nails</h3>
+    <p>Avenida Doutor Arnaldo, 251 Consolação, São Paulo</p>
+  </div>
+
+  <div class="card">
+    <div class="img-box">
+      <img src="./src/img/pexels-zvolskiy-1570807.jpg" alt="Barbearia Edynho">
+      <span class="rating">5.0<br><small>449 avaliações</small></span>
+    </div>
+    <h3>Barbearia Edynho</h3>
+    <p>Rua Lagoa da Tocha, 166, São Paulo</p>
+  </div>
+</div>
 
 
 </body>
-
+   
 </html>

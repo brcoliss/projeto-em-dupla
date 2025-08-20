@@ -1,6 +1,4 @@
-
-
-  const frases = [
+const frases = [
     "Seja você mesmo",
     "Brilhe todos os dias",
     "Sua beleza, nosso cuidado",
