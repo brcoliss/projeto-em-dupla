@@ -4,10 +4,58 @@
 @import url(./servico.css);
 @import url(./forms.css);
 @import url(./footer.css);
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: lightpink;
-    
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.social-media-buttons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-media-buttons a {
+    text-decoration: none;
+    color: white;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 30px 30px 0 30px;
+    transition: 1s ease;
+}
+
+.social-media-buttons i {}
+
+.btn-forms {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+    transition: 1s ease;
+}
+
+.btn-forms a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.btn-forms:hover {
+    transform: translateY(-5px);
 }
