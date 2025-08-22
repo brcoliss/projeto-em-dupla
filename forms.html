@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksy Formulário</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-forms">
+            <h1 class="title-header">Faça seu cadastro</h1>
+        </header>
+        <form action="" method="post" class="forms">
+            <fieldset>
+                <legend class="infoUser">Informações Pessoais</legend>
+                <div class="content-forms">
+                    <label for="nome" class="label-title">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+ 
+                    <label for="email" class="label-title">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+ 
+                    <label for="telefone" class="label-title">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(00)00000-0000">
+ 
+                    <label for="nascimento" class="label-title">Data de nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </div>
+            </fieldset>
+            <div class="botoes">
+                <button type="submit"><a href="./index.html">Cadastrar</a></button>
+                <button type="reset">Limpar formulário</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

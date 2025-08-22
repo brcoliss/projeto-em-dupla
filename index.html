@@ -1,86 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- 
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booksy Clone</title>
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <script src="java.js"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booksy</title>
+  <link rel="stylesheet" href="./src/styles/style.css">
 </head>
- 
+
 <body>
- 
-<header>
-  <div class="logo">Booksy</div>
-  <nav>
-    <ul>
-      <li><a href="#">Sobre nós</a></li>
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Formulário</a></li>
-    </ul>
-  </nav>
-</header>
- 
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="pesquisa">
-            <h1 id="frase" class="frase">Seja Majestoso</h1>
-            <p class="hero-p"> Reserve profissionais de beleza e encontre-os perto de você</p>
-            <input type="text" placeholder="Pesquise serviços ou empresas">
-            <nav class="categories">
-                <a href="#">Salões de Beleza</a>
-                <a href="#">Barbearias</a>
-                <a href="#">Manicure & Nail Designer</a>
-                <a href="#">Esteticistas</a>
-                <a href="#">Sobrancelhas & Cílios</a>
-                <a href="#">Spa & Massagem</a>
-                <a href="#">Make Up</a>
-                <a href="#">Saúde & Bem-estar</a>
-                <a href="#">Mais...</a>
-            </nav>
+  <header class="inicio">
+    <div class="logo">Booksy</div>
+    <nav>
+      <ul>
+        <li><a href="#sobre-nos" class="header-btn">Sobre nós</a></li>
+        <li><a href="#servico" class="header-btn">Serviços</a></li>
+        <div class="barra-fixa"></div>
+        <li>
+          <button class="btn-forms">
+            <a class="text-btn" href="./forms.html">Entrar / Inscrever-se</a>
+          </button>
+        </li>
         </div>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section id="hero">
+      <div class="overlay"></div>
+      <div class="pesquisa">
+        <h1 id="frase" class="frase">Seja Majestoso</h1>
+        <p class="hero-p"> Reserve profissionais de beleza e encontre-os perto de você</p>
+        <input type="text" placeholder="Pesquise serviços ou empresas">
+        <nav class="categories">
+          <a href="#">Salões de Beleza</a>
+          <a href="#">Barbearias</a>
+          <a href="#">Manicure & Nail Designer</a>
+          <a href="#">Esteticistas</a>
+          <a href="#">Sobrancelhas & Cílios</a>
+          <a href="#">Spa & Massagem</a>
+          <a href="#">Make Up</a>
+          <a href="#">Saúde & Bem-estar</a>
+          <a href="#">Mais...</a>
+        </nav>
+      </div>
     </section>
-    <h1 class="recomendado">Recomendados</h1>
-<div class="carrossel">
-  <div class="card">
-    <div class="img-box">
-      <img src="./src/img/lavarCabelo.jpg" alt="Toque de Seda">
-      <span class="rating">5.0<br><small>186 avaliações</small></span>
-    </div>
-    <h3>Toque de Seda</h3>
-    <p>Rua Guttmann, 62 - Jardim Santo Eduardo, Embu das Artes</p>
-  </div>
+    <div id="sobre-nos"></div>
+    <br>
+    <br>
+    <br>
+    <section id="sobre">
+      <div class="img-sobre">
+        <img src="./src/img/limpezaPele.jpg" alt="Limpeza de Pele">
+      </div>
+      <div class="text-sobre">
+        <h2 class="title-sobre">Sobre nós</h2>
+        <p class="content-sobre">Nós acreditamos que cuidar da beleza deve ser prático, acessível e de
+          qualidade. Por isso, buscamos entregar as melhores opções de reservas com profissionais da beleza,
+          conectando você aos salões mais próximos da sua casa. Nosso objetivo é facilitar sua rotina: em
+          poucos cliques, você encontra o serviço ideal, escolhe o melhor horário e garante seu atendimento
+          com profissionais de confiança. Afinal, só aqui você consegue unir conveniência, praticidade e
+          excelência em um único lugar. </p>
+      </div>
+    </section>
 
-  <div class="card">
-    <div class="img-box">
-      <img src="./src/img/limpezaPele.jpg" alt="Barbearia JJ">
-      <span class="rating">4.9<br><small>196 avaliações</small></span>
-    </div>
-    <h3>Essência Facial</h3>
-    <p>Avenida Perimetral Sul, 606, Vila</p>
-  </div>
+    <section id="servico">
+      <h1 class="recomendado">Recomendados</h1>
+      <div class="carrossel">
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/lavarCabelo.jpg" alt="Toque de Seda">
+            <span class="rating">5.0<br><small>186 avaliações</small></span>
+          </div>
+          <h3>Toque de Seda</h3>
+          <p>Rua Guttmann, 62 - Jardim Santo Eduardo, Embu das Artes</p>
+        </div>
 
-  <div class="card">
-    <div class="img-box">
-      <img src="./src/img/unha.jpg" alt="The Black White Hair">
-      <span class="rating">4.7<br><small>428 avaliações</small></span>
-    </div>
-    <h3>Charme Nails</h3>
-    <p>Avenida Doutor Arnaldo, 251 Consolação, São Paulo</p>
-  </div>
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/limpezaPele.jpg" alt="Barbearia JJ">
+            <span class="rating">4.9<br><small>196 avaliações</small></span>
+          </div>
+          <h3>Essência Facial</h3>
+          <p>Avenida Perimetral Sul, 606, Vila</p>
+        </div>
 
-  <div class="card">
-    <div class="img-box">
-      <img src="./src/img/pexels-zvolskiy-1570807.jpg" alt="Barbearia Edynho">
-      <span class="rating">5.0<br><small>449 avaliações</small></span>
-    </div>
-    <h3>Barbearia Edynho</h3>
-    <p>Rua Lagoa da Tocha, 166, São Paulo</p>
-  </div>
-</div>
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/unha.jpg" alt="The Black White Hair">
+            <span class="rating">4.7<br><small>428 avaliações</small></span>
+          </div>
+          <h3>Charme Nails</h3>
+          <p>Avenida Doutor Arnaldo, 251 Consolação, São Paulo</p>
+        </div>
 
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/pexels-zvolskiy-1570807.jpg" alt="Barbearia Edynho">
+            <span class="rating">5.0<br><small>449 avaliações</small></span>
+          </div>
+          <h3>Barbearia Edynho</h3>
+          <p>Rua Lagoa da Tocha, 166, São Paulo</p>
+        </div>
+
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/pexels-zvolskiy-1570807.jpg" alt="Barbearia Edynho">
+            <span class="rating">5.0<br><small>449 avaliações</small></span>
+          </div>
+          <h3>Barbearia Edynho</h3>
+          <p>Rua Lagoa da Tocha, 166, São Paulo</p>
+        </div>
+
+        <div class="card">
+          <div class="img-box">
+            <img src="./src/img/pexels-zvolskiy-1570807.jpg" alt="Barbearia Edynho">
+            <span class="rating">5.0<br><small>449 avaliações</small></span>
+          </div>
+          <h3>Barbearia Edynho</h3>
+          <p>Rua Lagoa da Tocha, 166, São Paulo</p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer id="footer">
+    <div class="btn-phone">
+      <a href="tel:+55555555555" id="phone_button">
+        <button class="btn-default">
+          <i class="fa-solid fa-phone"></i>
+        </button>
+        (13) 92342-3243
+      </a>
+    </div>
+    <div class="text-footer">
+      <p class="footer-text-content">Rua endereço do CEP 496</p>
+      <p>&copy; 2025 Booksy</p>
+    </div>
+    <div class="social-media-buttons">
+      <a href="">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+      <a href="">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </div>
+  </footer>
 
 </body>
-   
+
 </html>

@@ -1,38 +1,43 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  left: 20px;
+.inicio {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 100%; 
 }
-
+ 
 .logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #000000;
-  position: relative;
-  text-align: center;
-  left: 130px;
-    
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    left: 130px;
+ 
 }
-
+ 
 nav ul {
-  display: flex;
-  gap: 25px;
-  list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    text-align: center;
 }
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #333;
-  transition: 0.3s;
+ 
+nav li .header-btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+    transition: 0.3s;
 }
+ 
+nav ul li .header-btn:hover {
+    border-bottom: 2px solid lightpink;
+    padding-bottom: 4px;
 
-nav ul li a:hover {
-  color: #000000;
-  border-bottom: 2px solid #000000;
-  padding-bottom: 4px;
 }

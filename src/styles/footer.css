@@ -1,0 +1,50 @@
+#footer {
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.527);
+    max-height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 20px;
+}
+ 
+.text-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.text-footer h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+ 
+.footer-text-content {
+    font-size: 1.2rem;
+}
+ 
+.text-footer p {
+    padding: 0 20px;
+    margin: 10px 20px;
+    text-align: center;
+}
+ 
+.btn-phone {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+    transition: 1s ease;
+    margin: 10px;
+}
+ 
+.btn-phone a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+ 
+.btn-phone:hover {
+    transform: translateY(-5px);
+}

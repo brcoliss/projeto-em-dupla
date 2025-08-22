@@ -1,4 +1,3 @@
-
 .hero-p {
     font-size: 1.2em;
     color: #f0f0f0;
@@ -6,8 +5,9 @@
     margin-bottom: 20px;
     position: relative;
 }
-.hero {
-    background-image: url('../img/SalaoBeleza.jpg');
+
+#hero {
+      background-image: url('../img/SalaoBeleza.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 20px;
@@ -15,7 +15,7 @@
     text-align: center;
     position: relative;
 }
-.hero .overlay {
+#hero .overlay {
     top: 0;
     left: 0;
     width: 100%;
@@ -23,7 +23,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
 }
-input[type="text"] {
+#hero input[type="text"] {
   position: relative;
     width: 30%;
     padding: 15px;
@@ -40,7 +40,7 @@ input[type="text"] {
     margin-right: 35%;
     font-family: 'Arial', sans-serif;
 }
-input[type="text"]:focus {
+#hero input[type="text"]:focus {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     outline: none;
 }
@@ -53,7 +53,7 @@ input[type="text"]:focus {
     margin-top: 70px;
     position: relative;
   }
-
+ 
   .categories a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -72,13 +72,12 @@ input[type="text"]:focus {
     font-size: 15px;
     position: relative;
   }
-
+ 
   .categories a:hover {
-    color: #000000;
     background-color: rgba(255, 255, 255, 0.2);
-    border-bottom: #000000 2px solid;
+    border-bottom: lightpink 2px solid;
   }
-
+ 
 .frase{
   font-size: 48px;
   font-weight: bold;
@@ -99,12 +98,11 @@ input[type="text"]:focus {
   left: 50%;
   width: 0;
   height: 4px;
-  background: rgb(0, 0, 0);
+  background: lightpink;
   transition: all 0.4s ease;
   transform: translateX(-50%);
 }
-
+ 
 .frase:hover::after {
   width: 100%;
 }
-
